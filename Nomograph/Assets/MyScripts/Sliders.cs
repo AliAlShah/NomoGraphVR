@@ -22,11 +22,4 @@ public class Sliders : MonoBehaviour
         xRB.velocity = Vector3.zero;
         yRB.velocity = Vector3.zero;
     }
-
-
-
-    void Update()
-    {
-        
-    }
 }
