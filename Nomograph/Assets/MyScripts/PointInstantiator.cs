@@ -34,7 +34,7 @@ public class PointInstantiator : MonoBehaviour
 
         
 
-        pointPos = new Vector3(-xPoint + 1.3f, yPoint, -2.5f);
+        pointPos = new Vector3(-xPoint + 1.3f, yPoint, -2.4236f);
         spawnedPoint = Instantiate(point, pointPos, Quaternion.identity);
 
         Invoke("InstantiatePoint2", 1f);

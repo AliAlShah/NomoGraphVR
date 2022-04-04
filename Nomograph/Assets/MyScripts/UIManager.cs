@@ -26,11 +26,6 @@ public class UIManager : MonoBehaviour
     private Vector2 coordinate;
     private Vector3 spawnPoint;
 
-    void Start()
-    {
-        
-    }
-
 
     void Update()
     {
@@ -55,9 +50,9 @@ public class UIManager : MonoBehaviour
         {
             yVal = ((-aVal * xVal) - cVal) / bVal;
             coordinate = new Vector2(xVal, yVal);
-            Debug.Log(coordinate);
+         
 
-            spawnPoint = new Vector3(xVal, yVal, -2.5f);
+            spawnPoint = new Vector3(xVal, yVal, -2.6f);
             obj = Instantiate(linePoint, spawnPoint, Quaternion.identity);
             obj.transform.parent = coordinatePlane.transform;
             xVal += 0.25f;
