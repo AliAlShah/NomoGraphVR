@@ -52,10 +52,10 @@ public class UIManager : MonoBehaviour
             coordinate = new Vector2(xVal, yVal);
          
 
-            spawnPoint = new Vector3(xVal, yVal, -2.6f);
+            spawnPoint = new Vector3(xVal, yVal, -2.5f);
             obj = Instantiate(linePoint, spawnPoint, Quaternion.identity);
             obj.transform.parent = coordinatePlane.transform;
-            xVal += 0.25f;
+            xVal += 0.1f;
         }
     }
 }

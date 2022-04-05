@@ -4414,7 +4414,7 @@ GameObject:
   - component: {fileID: 8505301896875982225}
   m_Layer: 0
   m_Name: 'Y Slider '
-  m_TagString: Untagged
+  m_TagString: yslider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4736,7 +4736,7 @@ GameObject:
   - component: {fileID: 8505301898428770944}
   m_Layer: 0
   m_Name: X Slider
-  m_TagString: Untagged
+  m_TagString: xslider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
